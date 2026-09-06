@@ -56,6 +56,7 @@
     width:420px;height:420px;
     background:#ff2e6a;
     top:-140px;left:8%;
+    opacity:.4;
     animation:drift1 16s ease-in-out infinite;
   }
   .ambient-bg span:nth-child(2){
@@ -106,7 +107,18 @@
     line-height:1.08;
     margin:0 0 10px;
   }
-  h1 .line2{color:var(--accent);}
+  h1 .line2{
+    background:linear-gradient(90deg, #ff2e6a, #b06bff 50%, #ff9d3d);
+    -webkit-background-clip:text;
+    background-clip:text;
+    color:transparent;
+  }
+  .line2-ar{
+    background:linear-gradient(90deg, #ff2e6a, #b06bff 50%, #ff9d3d);
+    -webkit-background-clip:text;
+    background-clip:text;
+    color:transparent;
+  }
   .h1-ar{
     font-family:'Cairo',sans-serif;
     font-weight:800;
@@ -363,7 +375,7 @@
   <div class="kicker fade-in d1">GRAPHIC DESIGN &amp; VISUAL IDENTITY <span>/// PHOTOSHOP</span></div>
   <div class="kicker-ar fade-in d1" lang="ar">تصميم جرافيك وهوية بصرية <span>/// فوتوشوب</span></div>
   <h1 class="fade-in d2">Design<br><span class="line2">Portfolio</span></h1>
-  <p class="h1-ar fade-in d2" lang="ar">معرض <span style="color:var(--accent);">أعمالي</span></p>
+  <p class="h1-ar fade-in d2" lang="ar">معرض <span class="line2-ar">أعمالي</span></p>
   <p class="hero-sub fade-in d3">A collection of Photoshop-designed campaigns, menus, and promotional posters — built for cafés, restaurants, retail, and events. Every piece below is original work, ready to be put to work for your brand.</p>
   <p class="hero-sub-ar fade-in d3" lang="ar">مجموعة من الحملات الإعلانية والمنيوهات والبوسترات الترويجية المصممة بالفوتوشوب — لكافيهات، مطاعم، متاجر، وفعاليات. كل عمل بالأسفل تصميم أصلي وجاهز للعمل من أجل علامتك التجارية.</p>
   <div class="contact-row fade-in d4">
